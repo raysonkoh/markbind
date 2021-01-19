@@ -50,3 +50,5 @@ packages/cli/test/functional/*/_site
 # vscode configuration
 .vscode/
 *.iml
+
+test-markbind/
