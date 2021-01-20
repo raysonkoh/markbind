@@ -1,7 +1,6 @@
 const path = require('path');
 const fs = require('fs-extra');
 const ghpages = require('gh-pages');
-const jest = require('jest');
 const Site = require('../../src/Site');
 
 const {
