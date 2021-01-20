@@ -285,6 +285,8 @@ describe('Site deploy with Travis', () => {
     delete process.env.TRAVIS;
     delete process.env.GITHUB_TOKEN;
     delete process.env.TRAVIS_REPO_SLUG;
+    delete process.env.APPVEYOR;
+    delete process.env.APPVEYOR_REPO_NAME;
   });
 
   afterAll(() => {
@@ -347,7 +349,6 @@ describe('Site deploy with Travis', () => {
   });
 
   test('Site deploy -c/--ci should not deploy if not in Travis', async () => {
-    delete process.env.TRAVIS;
     process.env.GITHUB_TOKEN = 'githubToken';
 
     const json = {
@@ -403,8 +404,10 @@ describe('Site deploy with AppVeyor', () => {
 
   beforeEach(() => {
     // Delete all environment variables that affect tests
-    delete process.env.APPVEYOR;
+    delete process.env.TRAVIS;
     delete process.env.GITHUB_TOKEN;
+    delete process.env.TRAVIS_REPO_SLUG;
+    delete process.env.APPVEYOR;
     delete process.env.APPVEYOR_REPO_NAME;
   });
 
