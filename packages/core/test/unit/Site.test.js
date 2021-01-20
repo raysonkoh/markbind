@@ -282,7 +282,7 @@ describe('Site deploy with Travis', () => {
 
   beforeEach(() => {
     // Delete all environment variables that affect tests
-    jest.resetModule();
+    jest.resetModules();
     delete process.env.TRAVIS;
     delete process.env.GITHUB_TOKEN;
     delete process.env.TRAVIS_REPO_SLUG;
@@ -405,6 +405,7 @@ describe('Site deploy with AppVeyor', () => {
 
   beforeEach(() => {
     // Delete all environment variables that affect tests
+    jest.resetModules();
     delete process.env.TRAVIS;
     delete process.env.GITHUB_TOKEN;
     delete process.env.TRAVIS_REPO_SLUG;
