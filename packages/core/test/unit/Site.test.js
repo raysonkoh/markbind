@@ -347,6 +347,7 @@ describe('Site deploy with Travis', () => {
   });
 
   test('Site deploy -c/--ci should not deploy if not in Travis', async () => {
+    delete process.env.TRAVIS;
     process.env.GITHUB_TOKEN = 'githubToken';
 
     const json = {
@@ -467,6 +468,7 @@ describe('Site deploy with AppVeyor', () => {
   });
 
   test('Site deploy -c/--ci should not deploy if not in AppVeyor', async () => {
+    process.env.APPVEYOR = false;
     process.env.GITHUB_TOKEN = 'githubToken';
 
     const json = {
