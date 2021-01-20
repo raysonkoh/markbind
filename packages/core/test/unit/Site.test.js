@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs-extra');
 const ghpages = require('gh-pages');
+const jest = require('jest');
 const Site = require('../../src/Site');
 
 const {
@@ -282,6 +283,7 @@ describe('Site deploy with Travis', () => {
 
   beforeEach(() => {
     // Delete all environment variables that affect tests
+    jest.resetModule();
     delete process.env.TRAVIS;
     delete process.env.GITHUB_TOKEN;
     delete process.env.TRAVIS_REPO_SLUG;
