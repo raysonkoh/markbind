@@ -3,6 +3,16 @@ name: Node.js Package
 on: push
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: npm run setup
+      - run: npm test
+
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
@@ -13,6 +23,6 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
       - run: npm run setup
-      - run: lerna publish --registry https://npm.pkg.github.com/raysonkoh
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
