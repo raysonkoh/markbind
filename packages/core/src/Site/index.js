@@ -1180,6 +1180,7 @@ class Site {
         } else {
           repoSlug = process.env.GITHUB_REPOSITORY;
         }
+        console.log(githubToken, repoSlug);
 
         options.user = {
           name: 'GitHub',
