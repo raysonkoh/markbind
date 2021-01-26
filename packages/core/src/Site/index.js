@@ -1184,8 +1184,8 @@ class Site {
         logger.info(`token: ${githubToken}`);
 
         options.user = {
-          name: 'GitHub',
-          email: 'noreply@github.com',
+          name: 'Deployment Bot',
+          email: 'deploy@travis-ci.org',
         };
       } else {
         throw new Error('-c/--ci should only be run in CI environments.');
