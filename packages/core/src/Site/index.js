@@ -1181,7 +1181,7 @@ class Site {
           repoSlug = process.env.GITHUB_REPOSITORY;
         }
         logger.info(`repoSlug: ${repoSlug}`);
-        logger.info(`token: ${githubToken}`);
+        logger.info(`test: ${process.env.MY_TEST}`);
 
         options.user = {
           name: 'Deployment Bot',
