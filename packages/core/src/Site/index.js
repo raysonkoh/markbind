@@ -1192,6 +1192,7 @@ class Site {
       }
 
       options.repo = `https://${githubToken}@github.com/${repoSlug}.git`;
+      logger.info(`repo: ${options.repo}`);
     }
 
     publish(basePath, options);
