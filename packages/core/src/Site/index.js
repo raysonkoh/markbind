@@ -1189,7 +1189,7 @@ class Site {
         throw new Error('-c/--ci should only be run in CI environments.');
       }
 
-      options.repo = `https://abc:${githubToken}@github.com/${repoSlug}.git`;
+      options.repo = `https://${githubToken}@github.com/${repoSlug}.git`;
       logger.info(`repo: ${options.repo}`);
     }
 
