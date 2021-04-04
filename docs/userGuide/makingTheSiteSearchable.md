@@ -2,7 +2,7 @@
 {% set filename = "makingTheSiteSearchable" %}
 <span id="title" class="d-none">{{ title }}</span>
 
-{% from "njk/common.njk" import embed with context %}
+{% from "njk/common.njk" import embed %}
 
 <frontmatter>
   title: "User Guide: {{ title }}"
