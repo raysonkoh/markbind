@@ -15,6 +15,7 @@
 For Markdown syntax: To display a literal character that are normally used for Markdown formatting, add a backslash (`\`) in front of the character.
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 \* item 1

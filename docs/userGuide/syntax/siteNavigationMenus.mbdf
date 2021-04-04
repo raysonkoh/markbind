@@ -12,6 +12,7 @@ Steps to add a siteNav:
 <div id="short">
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="code">
 <site-nav>
 * [**Getting Started**]({{baseUrl}}/userGuide/gettingStarted.html)

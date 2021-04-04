@@ -8,6 +8,7 @@ Insert **display** equations by enclosing them in square brackets `\[ ... \]`.
 Insert numbered **display** equations by enclosing the equation square brackets and the equation number in curly brackets `\[ ... \] (1)`.
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 

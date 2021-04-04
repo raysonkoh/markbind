@@ -3,6 +3,7 @@
 **A `pic` component allows you to add captions below the image.**
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <pic src="https://markbind.org/images/logo-lightbackground.png" width="300" alt="Logo">

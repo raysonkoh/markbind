@@ -5,6 +5,7 @@
 **Modals are to be used together with the [Trigger](#trigger) component for activation.**
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 More about <trigger for="modal:loremipsum">trigger</trigger>.

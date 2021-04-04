@@ -2,6 +2,7 @@
 
 <div id="main-example">
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 :+1: :exclamation: :x: :construction:

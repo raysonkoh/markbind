@@ -5,6 +5,7 @@
 **Boxes come with different built-in types.**
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <box>
@@ -48,6 +49,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 **Markbind also supports a light color scheme for boxes**
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <box light>
@@ -88,6 +90,7 @@ As `light` and `seamless` are mutually exclusive styles, `light` takes priority 
 </box>
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <box seamless>
@@ -123,6 +126,7 @@ As `light` and `seamless` are mutually exclusive styles, `light` takes priority 
 **You can further customize the Box's appearance.**
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <box background-color="#ffca6a" border-color="grey" border-left-color="#8b5a01">
@@ -140,6 +144,7 @@ You can use any inline markdown in the `icon` property.
 **You can remove the background, icon and borders of preset styles.**
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <box no-icon no-background type="success">
@@ -160,6 +165,7 @@ Custom styles **(** `background-color`, `border-color`, `border-left-color`, `ic
 **You can also use icons, resize them and change their color accordingly.**
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <box type="success" icon=":fas-camera:">

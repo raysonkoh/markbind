@@ -3,6 +3,7 @@
 Use three or more asterisks (`***`), dashes (`---`), or underscores (`___`) to indicate a horizontal line.
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 *****

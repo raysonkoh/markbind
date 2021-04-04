@@ -4,6 +4,7 @@ Basic style:
 
 <div id="main-example">
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 MarkBind home is at [here](https://markbind.org).
@@ -14,6 +15,7 @@ MarkBind home is at [here](https://markbind.org).
 _Reference style_ links (i.e., specify the URL in a separate place):
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 MarkBind home is at [here][1].

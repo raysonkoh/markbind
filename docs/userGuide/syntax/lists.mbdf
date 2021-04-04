@@ -4,6 +4,7 @@
 ****Unordered lists:****
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 * Item 1
@@ -19,6 +20,7 @@
 ****Ordered lists:****
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 1. Item 1
@@ -36,6 +38,7 @@ first number
 <template slot="content">
 <div style="text-align: center; margin-bottom: 5px;">{{ icon_example }}</div>
 <include src="codeAndOutputSeparate.md" boilerplate>
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 10. Item 1
@@ -61,6 +64,7 @@ first number
 
 <span id="main-example-gfmd">
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 - [ ] Item 1
@@ -76,6 +80,7 @@ first number
 ****Radio-button lists:****
 <div id="main-example-markbind">
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 - ( ) Item 1

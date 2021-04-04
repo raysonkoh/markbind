@@ -15,6 +15,7 @@ must be installed to use this feature**
 
 <div id="main-example">
 <include src="outputBox.md" boilerplate>
+
 <span id="code">
 
 ```
@@ -43,6 +44,7 @@ return success
 Alternatively, a PlantUML diagram can be specified in a separate `.puml` file and inserted into a page using a `<puml>` tag.
 
 <include src="outputBox.md" boilerplate>
+
 <span id="code">
 
 `diagrams/sequence.puml`:

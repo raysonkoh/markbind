@@ -4,6 +4,7 @@ You can prepend the heading text with 1-6 `#` characters to indicate headings of
 
 <div id="main-example">
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 ### Heading level 3

@@ -1,6 +1,7 @@
 ## Badges
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 Normal:
@@ -27,6 +28,7 @@ Normal:
 You can use Badges in combination with headings, buttons, links, etc.
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 Links:

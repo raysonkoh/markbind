@@ -7,6 +7,7 @@ The syntax is `{.class-name attribute="value" attribute=value #id}`, which is pl
 on the type of markdown.
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 Apply classes, attributes, identifiers to block level markdown (eg. paragraphs, headings)
@@ -27,6 +28,7 @@ Some other types of markdown have **different placements** of the curly group `{
 ****Unordered and Ordered lists****
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code" id="list-example">
 * Apply to the list item itself like so {.text-success #list-item-id}

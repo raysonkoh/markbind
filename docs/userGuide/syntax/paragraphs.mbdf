@@ -3,6 +3,7 @@
 Use one or more empty lines to separate paragraphs.
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">markdown</variable>
 <variable name="code">
 This is the first paragraph.
