@@ -1,6 +1,7 @@
 ## Tooltips
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <tooltip content="Lorem ipsum dolor sit amet" placement="top">

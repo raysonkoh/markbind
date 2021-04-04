@@ -3,6 +3,7 @@
 **A `thumbnail` component allows you to insert thumbnails using text, images, or icons.**
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <thumbnail circle src="../../images/deer.jpg" size="100"/>

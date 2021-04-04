@@ -5,6 +5,7 @@
 **You can use Dropdowns as a top level component.**
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <!--Notice how header attribute supports inline MarkDown-->

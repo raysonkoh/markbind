@@ -13,6 +13,7 @@ In all cases, content directly inserted in between `<question>...</question>` wi
 You can also insert markdown into the **header** or **hint box**, by using the `header` and `hint` attributes respectively. Click the hint button below to see how the hint box turns out!
 
 <include src="codeAndOutputSeparate.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="heading">Header and Hint syntax</variable>
 <variable name="code">
@@ -56,6 +57,7 @@ If you require more expressive formatting for your header or hint markup, you ca
 
 <panel type="minimal" header="Header and Hint example **with slots**">
 <include src="codeAndOutputSeparate.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="heading">Headers and Hints using slots</variable>
 <variable name="code">
@@ -206,6 +208,7 @@ Optionally, you can provide the reason for the particular option using the `<q-o
 {% endset %}
 
 <include src="codeAndOutput.md" boilerplate>
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">{{ checkboxQuestion }}</variable>
 </include>
@@ -254,6 +257,7 @@ You can provide your answer in the `answer` attribute, or similarly, the `<div s
 {% endset %}
 
 <include src="codeAndOutput.md" boilerplate>
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">{{ textQuestion }}</variable>
 </include>

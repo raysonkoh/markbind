@@ -5,6 +5,7 @@
 **Boxes come with different built-in types.**
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <box>
@@ -123,6 +124,7 @@ As `light` and `seamless` are mutually exclusive styles, `light` takes priority 
 **You can further customize the Box's appearance.**
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <box background-color="#ffca6a" border-color="grey" border-left-color="#8b5a01">

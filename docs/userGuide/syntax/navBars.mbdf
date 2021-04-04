@@ -13,6 +13,7 @@ Note: **Navbars** should be placed within a [header file]({{ baseUrl }}/userGuid
 </box>
 
 <include src="codeAndOutput.md" boilerplate >
+
 <variable name="highlightStyle">html</variable>
 <variable name="code">
 <navbar type="primary">
